@@ -1,0 +1,44 @@
+title{
+    float: left;
+    margin: 50px;
+    padding: 40%;
+    border: 20%;
+    content: 95%;
+    background-color: #4aaaa5;
+    font-display: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.P-lio{
+    float: left;
+    margin: 50px;
+    padding: 40%;
+    border: 20%;
+    content: 95%;
+    background-color: white;
+    font-display: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .About Me {
+    float: left;
+    margin: 50px;
+    padding: 40%;
+    border: 20%;
+    content: 95%;
+    background-color: white;
+    font-display: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .C-tact{
+    float: left;
+    margin: 50px;
+    padding: 40%;
+    border: 20%;
+    content: 95%;
+    background-color: white;
+    font-display: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }

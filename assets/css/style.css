@@ -1,59 +1,77 @@
-title{
+header{
     float: left;
-    margin: 50px;
-    padding: 40%;
-    border: 20%;
-    content: 95%;
-    background-color: #4aaaa5;
-    font-display: white;
+    margin: 40px;
+   height: 75px;
+  background-color: #4aaaa5;
+  background-size: 50px;
+   color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
 }
 
 .P-lio{
     float: left;
-    margin: 50px;
-    padding: 40%;
-    border: 20%;
-    content: 95%;
+    margin: 65px;
+    padding-right: 21px;
+    padding-left: 318px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: white;
-    font-display: gray;
+    color: gray;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;   
+    font-size: 20px;   
 }
 
-  .About Me {
+  .A-Me {
     float: left;
-    margin: 50px;
-    padding: 40%;
-    border: 20%;
-    content: 95%;
+    margin: 65px;
+    padding-right: 21px;
+    padding-left: 14px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: white;
-    font-display: gray;
+    color: grey;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;   
+    font-size: 20px;   
 }
 
 
   .C-tact{
     float: left;
-    margin: 50px;
-    padding: 40%;
-    border: 20%;
-    content: 95%;
+     margin: 65px;
+    padding-right: 21px;
+    padding-left: 14px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: white;
-    font-display: gray;
+    color: gray;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;  
+    font-size: 20px;  
 }
   p{
     float: left;
     margin: 50px;
-    padding: 40%;
-    border: 20%;
-    content: 95%;
+    padding: 40px;
+    padding-right: 21px;
+    padding-left: 14px;
+    margin-right: auto;
+    margin-left: auto;
     background-color:white;
-    font-display: #4aaaa5;
+    color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
+  }
+
+  p1{
+    float: left;
+    background-color:white;
+    font-display: #000808;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  body{
+    margin: 50,40,50;
+    padding: 70,80,70;
+    content: 400,400;
   }

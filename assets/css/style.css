@@ -1,31 +1,54 @@
+html { 
+  background-image: "assets/images/lilypads.png"; 
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
 header{
-    float: left;
-   height: 75px;
+  float: left;
+  height: 75px;
   background-color: #4aaaa5;
   background-size: 50px;
-   color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  .clearfix::after{
+  content: "";
+  display: block;
+  clear: both;  
+  }
+    .container{
+      width: auto;
+       background-color: white;
+       margin: 45px;
+    
+      }
 }
 
 .P-lio{
   display: inline-block;
-    background-color: white;
-    color: gray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;   
-    text-decoration: none;
-    padding: 20px;
+  background-color: white;
+  color: gray !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;   
+  text-decoration: none;
+  padding: 20px;
+  /* /* padding-bottom: 0px;
+  height: 55px; */
+  padding-left: 450px; 
 }
+
 
   .A-Me {
     display: inline-block;
     padding: 20px;
     background-color: white;
-    color: grey;
+    color: grey !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-decoration: none;   
+    /* padding-bottom: 0px;
+    height: 55px; */
 }
 
 
@@ -34,62 +57,77 @@ header{
     padding: 20px;
     display: inline-block;
     background-color: white;
-    color: gray;
+    color: gray !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;  
     text-decoration: none;
-}
-  p{
-    /* margin: 50px;
-    padding: 40px;
-    padding-right: 21px;
-    padding-left: 14px;
-    margin-right: auto;
-    margin-left: auto; */
-    background-color:white;
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    /* padding-bottom: 0px;
+    height: 55px; */
   }
-
-  p1{
-    
-    background-color:white;
-    font-display: #000808;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-  }
-
+  
   body{
-    float: left;
-   
+    /* float: left; */
+    
     margin: 50px;
     padding: 40px;
     padding-right: 21px;
     padding-left: 14px;
     background-color: rgb(245, 239, 239);
   }
- 
+      #container1{
+        padding-top: 30px;
+        width: 960px;
+        background-color: white;
+        margin: 0px;
+      }
+      
+      
+        image{
+      /* position: relative; */
+      float: left;
+      padding-top: 30px;
+        }
+  p{
+  /* margin: 50px;
+  padding: 40px;
+  padding-right: 21px;
+  padding-left: 14px;
+  margin-right: auto;
+  margin-left: auto; */
+  background-color:white;
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
   
-  html { 
-    background-image: "assets/images/lilypads.png"; 
-    background-size: cover;
-    background-attachment: fixed;
-
-  }
-  .container{
-   width: 960px;
-   background-color: white;
-   margin: 0px;
-
-  }
-
-  image{
-/* position: relative; */
-float: left;
-  }
-  .clearfix::after{
-content: "";
-display: block;
-clear: both;  
 }
+p1{
+  padding: 10px;
+  color: gray;
+  font-size: 30px;
+  font-style: strong;
+  
+}
+
+p2{
+  background-color:white;
+  font-display: #000808;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: right;
+}
+<!-- start of Contact page>
+
+.form-group{
+  width: 960px;
+  float: left;
+}
+button{
+  background-color: #4aaaa5;
+  color: white;
+}
+.container2{
+  width: auto;
+   background-color: white;
+   margin: 45px;
+
+  }

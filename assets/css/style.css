@@ -35,7 +35,7 @@ header{
   padding: 20px;
   /* /* padding-bottom: 0px;
   height: 55px; */
-  padding-left: 450px; 
+  padding-left: 250px; 
 }
 
 
@@ -113,7 +113,7 @@ p2{
   font-display: #000808;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
-  text-align: right;
+  text-align: left;
 }
 <!-- start of Contact page>
 
@@ -130,4 +130,15 @@ button{
    background-color: white;
    margin: 45px;
 
+  }
+
+  <!-- Start Portfolio Page>
+
+
+  .penguin{
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+   
   }

@@ -1,5 +1,5 @@
-html { 
-  background-image: "assets/images/lilypads.png"; 
+body { 
+  background-image: url("../images/lilypads.png"); 
   background-size: cover;
   background-attachment: fixed;
   
@@ -12,6 +12,7 @@ header{
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 50px;
+}
   .clearfix::after{
   content: "";
   display: block;
@@ -23,6 +24,9 @@ header{
        margin: 45px;
     
       }
+
+.gray{
+  color: gray;
 }
 
 .P-lio{
@@ -32,16 +36,18 @@ header{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;   
   text-decoration: none;
-  padding: 20px;
+  /* padding: 20px; */
   /* /* padding-bottom: 0px;
   height: 55px; */
-  padding-left: 250px; 
+  padding-left: 200px; 
+  height: 20px;
+  margin-top: 20px;
 }
 
 
   .A-Me {
     display: inline-block;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: white;
     color: grey !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -49,12 +55,14 @@ header{
     text-decoration: none;   
     /* padding-bottom: 0px;
     height: 55px; */
+    height: 20px;
+  margin-top: 20px;
 }
 
 
 
   .C-tact{
-    padding: 20px;
+    /* padding: 20px; */
     display: inline-block;
     background-color: white;
     color: gray !important;
@@ -63,15 +71,20 @@ header{
     text-decoration: none;
     /* padding-bottom: 0px;
     height: 55px; */
+    height: 20px;
+    margin-top: 20px;
   }
+
   
   body{
     /* float: left; */
     
-    margin: 50px;
+    /* margin: 50px;
     padding: 40px;
     padding-right: 21px;
-    padding-left: 14px;
+    padding-left: 14px; */
+    margin-left: 95px;
+    margin-right: 50px;
     background-color: rgb(245, 239, 239);
   }
       #container1{
@@ -84,8 +97,11 @@ header{
       
         image{
       /* position: relative; */
-      float: left;
-      padding-top: 30px;
+      /* float: left; */
+      /* padding-top: 30px; */
+      /* display: block; */
+      /* float: left; */
+      display: inline-block;
         }
   p{
   /* margin: 50px;
@@ -100,20 +116,29 @@ header{
   font-size: 50px;
   
 }
-p1{
+.p1{
   padding: 10px;
   color: gray;
   font-size: 30px;
   font-style: strong;
+  /* padding-left: 15px; */
+  margin-left: 45px;
   
 }
 
-p2{
+.p2{
   background-color:white;
-  font-display: #000808;
+  /* font-display: #000808; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
   text-align: left;
+  display: inline-block;
+  width: 550px; 
+  /* float: left; */
+  margin-left: 5px;
+  color: #000808;
+ 
+
 }
 <!-- start of Contact page>
 
@@ -130,6 +155,29 @@ button{
    background-color: white;
    margin: 45px;
 
+  }
+  .down{
+    display: block;
+    font-size: 25px;
+    padding-top: 25px;
+  }
+
+  .size{
+    height: 250px;
+    width: 880px;
+    margin-bottom: 25px;
+  }
+
+  .test{
+    height: 25px;
+    width: 880px;
+  }
+
+  .button{
+    height: 35px;
+    width: 60px;
+    /* padding-left: 550px; */
+    /* padding-top: 25px; */
   }
 
   <!-- Start Portfolio Page>
